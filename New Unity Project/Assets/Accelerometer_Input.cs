@@ -12,6 +12,6 @@ public class Accelerometer_Input : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //transform.Rotate(0, Input.acceleration.x, 0);
-        transform.Translate(Input.acceleration.x, 0, 0);
+        transform.Translate(Input.acceleration.x * 10, 0, 0);
     }
 }
